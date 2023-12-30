@@ -9,6 +9,7 @@ import Home from "./views/Home";
 import ForgotPassword from "./views/ForgotPassword";
 import ChangePassword from "./views/ChangePassword";
 import Profile from "./views/Profile";
+import NotFound from "./views/NotFound";
 
 const App = () => {
   return (
@@ -62,6 +63,7 @@ const App = () => {
             </ProtectedRoutes>
           }
         />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

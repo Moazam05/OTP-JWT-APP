@@ -208,7 +208,7 @@ const Login = () => {
                         },
                       }}
                       onClick={() => {
-                        navigate("/forgot-password");
+                        navigate("/reset-password");
                       }}
                     >
                       Forgot Password?
